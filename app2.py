@@ -12,7 +12,7 @@ le_season = joblib.load('le_season.pkl')
 le_crop = joblib.load('le_crop.pkl')
 
 # Load dataset to get dropdown options
-df = pd.read_csv("/content/drive/MyDrive/INNOVATHAN/CROP YEILD/merged_crop_data.csv")
+df = pd.read_csv("merged_crop_data.csv")
 
 # Get unique sorted values for dropdowns
 states = sorted(df['State_Name'].unique())
